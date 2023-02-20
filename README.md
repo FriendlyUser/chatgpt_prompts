@@ -5,20 +5,10 @@ List of chatgpt prompts I have used. In the era of AI generated code, I wish to 
 ## Commit messages
 
 Write an insightful but concise Git commit message in a complete sentence in imperative present tense for the following diff without prefacing it with anything:
-```
-diff --git a/ReadMe.md b/ReadMe.md
-index 9147e27d..b9013021 100644
---- a/ReadMe.md
-+++ b/ReadMe.md
-@@ -40,3 +40,6 @@ To serve content directly you can use
- ```python
- python -m http.server 8080 --bind 127.0.0.1 --directory ibook/_build
- ```
-+
-+
-+This repo is meant to contain some of my investing notes
-\ No newline at end of file
-```
+
+`
+git diff goes here
+`
 
 
 ##  Blog Generation
