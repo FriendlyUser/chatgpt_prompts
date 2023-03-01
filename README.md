@@ -36,6 +36,9 @@ Generate boilerplate code for an app that integrates to an external API. Please 
 code on the express.js framework.
 
 
+Given the following git commit messages create dev testing notes, do not reference the commits themselves, 
+explain what should be tested when [feature name goes here]
+
 ### Test case Generation in Jest
 
 
