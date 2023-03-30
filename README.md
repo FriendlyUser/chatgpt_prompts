@@ -58,3 +58,7 @@ Generate code in [desired language] to solve the following challenge:
 Topic: ChatGpt Script in Python to describe code and get keywords
 
 For the above topic, use future prompts to write for a technical audience for a blog post and give consise explainations for code. Optimize the post for medium and google seo. Ensure this content is original. Respond with 'confirm' to acknowledge that you understand the prompt.
+
+
+create a solution to
+
