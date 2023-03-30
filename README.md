@@ -60,5 +60,15 @@ Topic: ChatGpt Script in Python to describe code and get keywords
 For the above topic, use future prompts to write for a technical audience for a blog post and give consise explainations for code. Optimize the post for medium and google seo. Ensure this content is original. Respond with 'confirm' to acknowledge that you understand the prompt.
 
 
-create a solution to
+Create a solution to the following problem, make sure to include the problem in the solution and any question numbering given. For example
+
+For the following problem
+5. Write a function-like macro that generates a series of getter and setter methods for a struct with the specified fields. The generated methods should follow the Rust convention of `get_<field>` and `set_<field>`.
+
+The output would start with
+
+5. Write a function-like macro that generates a series of getter and setter methods for a struct with the specified fields. The generated methods should follow the Rust convention of `get_<field>` and `set_<field>`.
+
+
+
 
