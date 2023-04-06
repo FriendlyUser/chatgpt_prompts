@@ -41,6 +41,30 @@ explain what should be tested when [feature name goes here]
 
 ### Test case Generation in Jest
 
+Write a test case in jest for the following code:
+
+### Code generation
+
+Implement a job that clears out deactivated phone numbers from twilio in nodejs using bullmq
+
+For fetching the url to download the txt file.
+
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
+const client = require('twilio')(accountSid, authToken);
+
+client.messaging.v1.deactivations()
+                .fetch({date: new Date(Date.UTC(2020, 8, 5))})
+                .then(deactivations => console.log(deactivations.redirectTo));
+Where a sample response is
+
+{
+  "redirect_to": "https://com-twilio-dev-messaging-deactivations.s3.amazonaws.com"
+}
+the class should look like
+
+export class JobExecutor {
+}
 
 ### Bugs
 Please find the bug in the code below. This is what it should be doing:
