@@ -39,32 +39,43 @@ code on the express.js framework.
 Given the following git commit messages create dev testing notes, do not reference the commits themselves, 
 explain what should be tested when [feature name goes here]
 
+
+Create a script to parse and
+extract with the following requirements:
+.
+[language] [file format]
+[information]
+[requirements list]
+
+Write a function to filter
+based on with the following inputs:
+ and expected output: .
+[language] [data structure]
+[condition] [input
+variables] [output description]
+
+
+Implement a function that handles
+asynchronously with the following inputs:
+ and expected output:
+[language] [task]
+[input
+variables] [output description]
+
+Finish the implementation of
+for :
+[language] [design pattern]
+[use case] [code snippet]
+
+Refactor the given code to improve its error
+handling and resilience:
+ [language]
+[code snippet]
+
 ### Test case Generation in Jest
 
 Write a test case in jest for the following code:
 
-### Code generation
-
-Implement a job that clears out deactivated phone numbers from twilio in nodejs using bullmq
-
-For fetching the url to download the txt file.
-
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const client = require('twilio')(accountSid, authToken);
-
-client.messaging.v1.deactivations()
-                .fetch({date: new Date(Date.UTC(2020, 8, 5))})
-                .then(deactivations => console.log(deactivations.redirectTo));
-Where a sample response is
-
-{
-  "redirect_to": "https://com-twilio-dev-messaging-deactivations.s3.amazonaws.com"
-}
-the class should look like
-
-export class JobExecutor {
-}
 
 ### Bugs
 Please find the bug in the code below. This is what it should be doing:
@@ -95,4 +106,10 @@ The output would start with
 
 
 
+## Unrelated
 
+As a Harvard Business School graduate and skilled
+analyst at a premier market research firm, guide me in
+crafting content that resonates with C-level executives in
+B2B SaaS companies. Emphasize uncommon and expert
+questions to ask
