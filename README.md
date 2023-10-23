@@ -113,3 +113,11 @@ analyst at a premier market research firm, guide me in
 crafting content that resonates with C-level executives in
 B2B SaaS companies. Emphasize uncommon and expert
 questions to ask
+
+
+## Copywriting
+
+For the following technical article draft, flag any signs of any lines being written by ai
+
+Given the following guidelines for writing an article:
+
